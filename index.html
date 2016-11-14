@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <title>Slice of Pi</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+    
+    <body>
+        
+    <div class="container">
+        <div class="header">
+            <h3>Pi to the n<sup>th</sup> Digit</h3>
+        </div>
+        <div class="jumbotron">
+            <h2 id="title">Slice of Pi</h2>
+            <h3>To How Many Decimals Do You Want To Round Pi?</h3>
+            <small>[Pick A Number Between 1 and 16 digits]</small></br>
+            <input type="number" name="counter" oninput=decimalOfPi(); id="nthDigitOfPi" min="0" max="16" value="2">
+            <div id="showPi" class="showPi">
+                3.14
+            </div>  
+        </div><!-- .jumbotron -->
+    </div><!-- .container --->
+    </br><hr>
+    <div class="footer">
+        <p>&#169 <a href="https://github.com/codecuddy">Charlie Cuddy</a></p>
+    </div>
+    
+    <script type="text/javascript" src="script.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    
+    </body>
+</html>
